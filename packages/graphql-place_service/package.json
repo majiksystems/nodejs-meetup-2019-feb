@@ -1,0 +1,17 @@
+{
+    "name": "@nodejs-kitchener/graphql-place_service",
+    "version": "1.0.0",
+    "scripts": {
+        "start": "node server.js"
+    },
+    "dependencies": {
+        "@google/maps": "^0.5.5",
+        "apollo-server-express": "^2.4.8",
+        "busy-hours": "^0.0.5",
+        "dotenv": "^6.2.0",
+        "graphql": "^14.1.1",
+        "graphql-import": "^0.7.1",
+        "graphql-tools": "^4.0.4",
+        "node-fetch": "^2.3.0"
+    }
+}
