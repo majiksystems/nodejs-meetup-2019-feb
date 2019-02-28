@@ -1,0 +1,26 @@
+{
+    // Use IntelliSense to learn about possible attributes.
+    // Hover to view descriptions of existing attributes.
+    // For more information, visit: https://go.microsoft.com/fwlink/?linkid=830387
+    "version": "0.2.0",
+    "configurations": [
+        {
+            "type": "node",
+            "request": "launch",
+            "name": "Graphql Stitcher",
+            "program": "${workspaceFolder}/packages/graphql-location-stiching/server.js"
+        },
+        {
+            "type": "node",
+            "request": "launch",
+            "name": "Location Serach",
+            "program": "${workspaceFolder}/packages/graphql-place_service/server.js"
+        },
+        {
+            "type": "node",
+            "request": "launch",
+            "name": "Async Iterators",
+            "program": "${workspaceFolder}/packages/async_iterators/index.js"
+        }
+    ]
+}
