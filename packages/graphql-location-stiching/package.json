@@ -1,0 +1,21 @@
+{
+    "name": "@nodejs-kitchener/graphql-location-stiching",
+    "version": "1.0.0",
+    "scripts": {
+        "start": "concurrently npm:start-places npm:start-stitcher",
+        "start-stitcher": "node server.js",
+        "start-places": "node ../graphql-place_service/server.js"
+    },
+    "dependencies": {
+        "apollo-link-context": "^1.0.14",
+        "apollo-link-http": "^1.5.11",
+        "apollo-server": "^2.4.8",
+        "apollo-server-express": "^2.4.8",
+        "concurrently": "^4.1.0",
+        "dotenv": "^6.2.0",
+        "graphql": "^14.1.1",
+        "graphql-import": "^0.7.1",
+        "graphql-tools": "^4.0.4",
+        "node-fetch": "^2.3.0"
+    }
+}
