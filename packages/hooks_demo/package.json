@@ -1,0 +1,31 @@
+{
+  "name": "hooks_demo",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "storybook": "start-storybook -p 9001 -c .storybook"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@babel/core": "^7.3.4",
+    "@storybook/react": "^4.1.13",
+    "babel-loader": "^8.0.5"
+  },
+  "dependencies": {
+    "@material-ui/core": "^3.9.2",
+    "add": "^2.0.6",
+    "apollo-cache-inmemory": "^1.5.0",
+    "apollo-client": "^2.5.0",
+    "apollo-link-context": "^1.0.14",
+    "apollo-link-http": "^1.5.11",
+    "graphql": "^14.1.1",
+    "graphql-tag": "^2.10.1",
+    "react": "^16.8.3",
+    "react-apollo": "^2.5.0",
+    "react-apollo-hooks": "^0.4.1",
+    "react-dom": "^16.8.3",
+    "yarn": "^1.13.0"
+  }
+}
