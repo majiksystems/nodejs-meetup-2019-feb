@@ -1,6 +1,6 @@
 ## Custom Google Places graphql api
 
-This project creates a Graphql API for google place api. Currently, the only endpoint here is to search for a location. The api will return the location with its hourly 
+This project creates a Graphql API for google place api. Currently, the only endpoint here is to search for a location. The api will return the location with its popular times data from Google Places  
 
 ### How to use
 
