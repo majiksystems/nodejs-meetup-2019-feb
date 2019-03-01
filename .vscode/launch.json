@@ -21,6 +21,18 @@
             "request": "launch",
             "name": "Async Iterators",
             "program": "${workspaceFolder}/packages/async_iterators/index.js"
+        },
+        {
+            "type": "node",
+            "request": "launch",
+            "name": "Storybook",
+            "program": "${workspaceRoot}/node_modules/@storybook/react/bin/index.js",
+            "args": [
+                "-p",
+                "9002",
+                "-c",
+                "./packages/hooks_demo/.storybook"
+            ]
         }
     ]
 }
